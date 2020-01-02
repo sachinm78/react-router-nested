@@ -1,9 +1,6 @@
 import React from "react"
 import {Link} from "react-router-dom"
 
-import Settings from "./Settings"
-import Info from "./Info"
-
 function Profile() {
     return (
         <div>
