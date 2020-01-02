@@ -3,8 +3,6 @@ import Header from "./components/Header"
 import Footer from "./components/Footer"
 import Home from "./pages/Home"
 import Profile from "./pages/profile/Profile"
-import Info from "./pages/profile/Info"
-import Settings from "./pages/profile/Settings"
 
 import {Switch, Route} from "react-router-dom"
 import styles from "./styles.css"
@@ -18,14 +16,8 @@ function App() {
                 <Route exact path="/">
                     <Home />
                 </Route>
-                <Route exact path="/profile">
-                    <Profile />
-                </Route>
-                <Route path="/profile/info">
-                    <Info/>
-                </Route>
-                <Route path="/profile/settings">
-                    <Settings/>
+                <Route path="/profile">
+                    <Profile/>
                 </Route>
             </Switch>
             
